@@ -1,0 +1,28 @@
+{
+  "collections": {
+    "sessions": {
+      "document": {
+        "pin": "string",
+        "name": "string",
+        "speaker": "string",
+        "date": "string",
+        "formStructure": "array"
+      },
+      "rules": {
+        "read": "true",
+        "write": "true"
+      }
+    },
+    "responses": {
+      "document": {
+        "sessionId": "string",
+        "answers": "map",
+        "submittedAt": "timestamp"
+      },
+      "rules": {
+        "read": "true",
+        "write": "true"
+      }
+    }
+  }
+}
